@@ -40,6 +40,7 @@ describe('MySecondTest', () => {
         cy.get("button[type='submit']").click()
         cy.wait(5000)
         cy.get("button[type = 'button'] .oxd-icon.bi-trash").click()
+        cy.get("button[class='oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin']").click()
 
     })
 })
